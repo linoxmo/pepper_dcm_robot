@@ -4,7 +4,7 @@
   <arg name="robot_port"        default="$(optenv NAO_PORT 9559)" />
   <arg name="roscore_ip"        default="127.0.0.1" />
   <arg name="network_interface" default="eth0" />
-  <arg name="username"          default="" />
+  <arg name="user"              default="" />
   <arg name="password"          default="" />
 
  	<!-- Call Robot publisher -->
@@ -26,8 +26,8 @@
     <param name="motor_groups"        value="Head LArm RArm" /> <!-- either "Body" or separate groups in the order "Head LArm RArm" -->
     <param name="use_dcm"             value="false" />
     <param name="max_stiffness"       value="0.9" />
-    <param name="username"             value="$(arg username)" />
-    <param name="password"             value="$(arg password)" />
+    <param name="user"                value="$(arg user)" />
+    <param name="password"            value="$(arg password)" />
   </node>
-	
+
 </launch>
