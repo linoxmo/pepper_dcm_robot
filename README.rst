@@ -8,8 +8,8 @@ Installation
 - install dependencies
 
 .. code-block:: bash
-
-        sudo apt-get install ros-indigo-pepper-robot ros-indigo-pepper-meshes ros-indigo-pepper-control ros-indigo-naoqi-dcm-driver
+- install from git naoqi-dcm-driver , pepper_robot, pepper_virtual 
+        sudo apt-get install ros-noetic-pepper-meshes
 
 - then, install `pepper_dcm_bringup <https://github.com/ros-naoqi/pepper_dcm_robot>`_ or compile it from source
 
